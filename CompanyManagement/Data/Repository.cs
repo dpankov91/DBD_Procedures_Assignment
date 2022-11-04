@@ -5,7 +5,8 @@ namespace CompanyManagement.Data
 {
     public class Repository
     {
-        private string connectionString = "jdbc:sqlserver://localhost:10022;database=companydb";
+        //testString
+        private string connectionString = "Server=CompanyServer;Database=Company;Trusted_Connection=True";
 
         public void CreateDepartment(string DName, string MgrSSN)
         {
